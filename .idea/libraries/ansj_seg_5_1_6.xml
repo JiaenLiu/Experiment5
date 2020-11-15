@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ansj_seg-5.1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/ansj_seg-5.1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/nlp-lang-1.7.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
