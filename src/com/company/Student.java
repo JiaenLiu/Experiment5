@@ -116,6 +116,7 @@ public class Student extends Member implements Homework{
         }
     }
 
+
     private int countWord(String wordToFind, String input) {
         int toRet = 0;
         String[] words = wordToFind.split("");

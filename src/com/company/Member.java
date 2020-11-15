@@ -2,6 +2,7 @@ package com.company;
 
 //import org.jetbrains.annotations.NotNull;
 
+
 public class Member {
     private String idNumber;
     private String name;

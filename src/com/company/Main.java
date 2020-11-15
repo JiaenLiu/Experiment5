@@ -22,6 +22,7 @@ public class Main {
             e.printStackTrace();
         }
 
+        
         if (data[3].equals("1")) {
             sex = true;
         }
