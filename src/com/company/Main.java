@@ -10,12 +10,13 @@ public class Main {
 
         String inputFile = "data/input.txt";
         String outputFile = "data/output.txt";
+        String studentInfo = "data/students_info.txt";
         String studentData = "";
         BufferedReader reader = null;
         String[] data = null;
         boolean sex = false;
         try {
-            reader = new BufferedReader(new FileReader(outputFile));
+            reader = new BufferedReader(new FileReader(studentInfo));
             studentData = reader.readLine();
             data = studentData.split(" ");
         } catch (Exception e) {

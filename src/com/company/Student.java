@@ -106,8 +106,10 @@ public class Student extends Member implements Homework{
             return;
         }
         try {
-            String wordCountInfo = "\n" + wordToFind + "有: " + wordCount + "个。";
+            String wordCountInfo = "\n" + wordToFind + "有: " + wordCount + "个。" + "\n";
+            String studentInfo = "Name: " + getName() + "ID: " + getIdNumber() + "Sex: " + getSex() + "Score: " + getCurrentScore();
             toOutput.append(wordCountInfo);
+            toOutput.append(studentInfo);
             out.println(toOutput);
             out.close();
         } catch (Exception e) {
